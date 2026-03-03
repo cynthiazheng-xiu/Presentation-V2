@@ -106,7 +106,7 @@ with col_title:
     <div style="text-align: center; background: linear-gradient(145deg, #f0f7fa, #ffffff); padding: 0.8rem; border-radius: 50px; margin: 0.5rem 0 2rem 0; border: 1px solid #cde0e7;">
         <span style="font-weight: 600; color: #1e5f7a;">汇报人：郑秀英</span> 
         <span style="color: #666;"> | 指导老师</span>
-        <span style="color: #999; font-size: 0.9rem; margin-left: 15px;">基础科学系</span>
+        <span style="color: #999; font-size: 0.9rem; margin-left: 15px;"> | 基础科学系</span>
     </div>
     """, unsafe_allow_html=True)
 

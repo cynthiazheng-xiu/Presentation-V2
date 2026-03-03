@@ -121,7 +121,7 @@ with col_s1:
     <div style="background-color: #e6f0f5; padding: 0.8rem; border-radius: 10px; text-align: center; height: 100%;">
         <span style="font-size: 1.8rem;">🔧</span>
         <h4 style="color: #1e5f7a; margin: 0.3rem 0;">技能水平</h4>
-        <p style="font-size: 0.8rem;">数字人+Coze+报价+PRA<br>四项硬技能全覆盖</p>
+        <p style="font-size: 0.8rem;">数字人+Coze+报价+RPA<br>四项硬技能全覆盖</p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -187,7 +187,7 @@ with st.container():
         
         st.markdown("#### 🛠️ 核心技术模块")
         tech_data = pd.DataFrame({
-            "模块": ["数字人直播", "Coze工作流", "报价系统", "PRA单证"],
+            "模块": ["数字人直播", "Coze工作流", "报价系统", "RPA单证"],
             "技术属性": ["🧠 AI", "🧠 AI", "💪 数字化", "💪 数字化"],
             "核心功能": ["24小时智能获客", "询盘自动分类回复", "2分钟极速报价", "3秒自动填单"],
             "方案评分点": ["技能水平", "创新创意", "应用价值", "技能水平"]

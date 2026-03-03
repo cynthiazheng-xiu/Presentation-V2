@@ -4,7 +4,7 @@ from datetime import datetime
 
 # 页面配置
 st.set_page_config(
-    page_title="极速出海 | 2026世校赛参赛项目",
+    page_title="2026世校赛备赛汇报",
     page_icon="🚢",
     layout="wide"
 )

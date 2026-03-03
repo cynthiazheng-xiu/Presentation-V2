@@ -267,7 +267,7 @@ with col_partner1:
     st.markdown("""
     <div style="background-color: #f0f7fa; padding: 1.2rem; border-radius: 10px;">
         <h4 style="color: #1e5f7a;">🏢 贵州遵礼外贸有限公司</h4>
-        <p>✅ 4名学生正在实习<br>✅ 合作开发报价模板</p>
+        <p>✅ 4名学生正在实习<br>✅ 深入调研企业真实痛点</p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -275,7 +275,7 @@ with col_partner2:
     st.markdown("""
     <div style="background-color: #f0f7fa; padding: 1.2rem; border-radius: 10px;">
         <h4 style="color: #1e5f7a;">🏢 贵州一码进出口有限责任公司</h4>
-        <p>✅ 已见面3次<br>✅ 洽谈实训基地</p>
+        <p>✅ 已见面3次<br>✅ 洽谈合作开发报价模板</p>
     </div>
     """, unsafe_allow_html=True)
 

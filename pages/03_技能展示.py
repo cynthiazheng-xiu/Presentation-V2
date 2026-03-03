@@ -152,7 +152,7 @@ with tabs[2]:
         """, language="python")
 
 with tabs[3]:
-    st.header("📄 PRA单证——3秒自动填单")
+    st.header("📄 RPA单证——3秒自动填单")
     
     st.markdown("""
     **Power Automate Desktop流程**：
@@ -215,7 +215,7 @@ st.markdown("""
             <td>⭐⭐⭐⭐</td>
         </tr>
         <tr>
-            <td>PRA单证</td>
+            <td>RPA单证</td>
             <td>流程录制+选择器优化</td>
             <td>15分钟</td>
             <td>⭐⭐⭐⭐⭐</td>

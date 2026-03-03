@@ -24,7 +24,7 @@ with col_left:
         <ul>
             <li><strong>技术</strong>：AI数字人、语音合成、自然语言处理</li>
             <li><strong>功能</strong>：24小时智能获客、多语言互动</li>
-            <li><strong>创新点</strong>：替代初级人力，成本200元/月</li>
+            <li><strong>创新点</strong>：替代初级人力</li>
         </ul>
         <h4 style="margin-top: 1.5rem;">🧠 Coze工作流</h4>
         <ul>
@@ -46,7 +46,7 @@ with col_right:
             <li><strong>功能</strong>：2分钟极速报价、汇率实时同步</li>
             <li><strong>创新点</strong>：双方案并行，适应不同企业需求</li>
         </ul>
-        <h4 style="margin-top: 1.5rem;">📄 PRA单证</h4>
+        <h4 style="margin-top: 1.5rem;">📄 RPA单证</h4>
         <ul>
             <li><strong>技术</strong>：Power Automate Desktop</li>
             <li><strong>功能</strong>：3秒自动填单，错误率26%→2%</li>
@@ -67,7 +67,7 @@ nodes = [
     {"x": 2, "y": 5, "text": "数字人(AI)", "color": "#1e5f7a"},
     {"x": 4, "y": 5, "text": "Coze(AI)", "color": "#1e5f7a"},
     {"x": 6, "y": 5, "text": "报价(数字化)", "color": "#f3b33d"},
-    {"x": 8, "y": 5, "text": "PRA(数字化)", "color": "#f3b33d"}
+    {"x": 8, "y": 5, "text": "RPA(数字化)", "color": "#f3b33d"}
 ]
 
 fig.add_trace(go.Scatter(

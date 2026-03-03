@@ -38,7 +38,7 @@ with col_ai:
                 <li><strong>创新点</strong>：0代码搭建，业务人员可配置</li>
             </ul>
         </div>
-        <p style="text-align: center; margin-top: 15px; margin-bottom: 0;"><a href="https://www.coze.cn/work_flow?space_id=7491136436608106536&workflow_id=7610438014247305225&force_stay=1" target="_blank">🔗 点击查看Coze工作流（需登录）</a></p>
+        <p style="text-align: center; margin-top: 15px; margin-bottom: 0;"><a href="https://www.coze.cn/work_flow?space_id=7491136436608106536&workflow_id=7613027449315885065&force_stay=1" target="_blank">🔗 点击查看Coze工作流（需登录）</a></p>
     </div>
     """, unsafe_allow_html=True)
 

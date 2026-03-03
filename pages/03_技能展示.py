@@ -12,7 +12,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # 选项卡展示四项技能
-tabs = st.tabs(["🤖 数字人直播", "🧠 Coze工作流", "💰 报价系统", "📄 PRA单证"])
+tabs = st.tabs(["🤖 数字人直播", "🧠 Coze工作流", "💰 报价系统", "📄 RPA单证"])
 
 with tabs[0]:
     st.header("🤖 数字人直播——24小时智能获客")
@@ -133,6 +133,21 @@ with tabs[2]:
         - ✅ 大模型辅助编程
         - ✅ 理解业务需求转化为代码
         """)
+        
+        # 添加外部链接按钮
+        python_demo_url = "https://export-quotation-system-7gwfeahqyaafdp8mnofrjg.streamlit.app/"
+        st.markdown(f"""
+        <div style="background-color: #e6f0f5; padding: 1.2rem; border-radius: 10px; margin: 1rem 0; text-align: center; border: 1px solid #1e5f7a;">
+            <h4 style="color: #1e5f7a; margin-top: 0;">🚀 在线演示</h4>
+            <p>点击下方按钮体验完整的Python报价系统：</p>
+            <a href="{python_demo_url}" target="_blank">
+                <button style="background-color: #1e5f7a; color: white; padding: 12px 35px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; font-weight: bold;">
+                    🔗 打开Python报价系统演示
+                </button>
+            </a>
+            <p style="margin-top: 10px; font-size: 0.9rem; color: #666;">在新标签页中打开独立部署的报价系统</p>
+        </div>
+        """, unsafe_allow_html=True)
         
         st.code("""
         # Streamlit报价系统核心代码

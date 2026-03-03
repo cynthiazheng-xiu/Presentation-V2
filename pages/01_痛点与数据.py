@@ -20,9 +20,6 @@ with col_info1:
     st.metric("调研企业", "11家", "遵义小微外贸")
 with col_info2:
     st.metric("问卷回收", "11份", "有效率100%")
-with col_info3:
-    st.metric("信度系数", "0.683", "可接受水平")
-
 st.markdown("### 🔍 三组核心数据（项目灵魂）")
 
 # 数据可视化
@@ -94,7 +91,7 @@ st.markdown("### 📋 详细调研数据")
 detail_data = pd.DataFrame({
     "指标": ["报价时间>半天", "专业软件使用率", "单证错误率", "无IT人员", "缺运营人才", "预算1000-3000元", "已开展外贸业务", "计划1年内开展"],
     "比例": ["40%", "0%", "26%", "60%", "70%", "71%", "36.36%", "54.55%"],
-    "解决方案": ["2分钟报价", "Excel+VBA+Python", "PRA自动填充", "轻量化工具", "AI数字人", "服务费模式", "已对接", "正在对接"]
+    "解决方案": ["2分钟报价", "Excel+VBA+Python", "RPA自动填充", "轻量化工具", "AI数字人", "服务费模式", "已对接", "正在对接"]
 })
 st.dataframe(detail_data, use_container_width=True, hide_index=True)
 

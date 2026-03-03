@@ -94,10 +94,10 @@ st.markdown("""
 
 # ===== 头部 =====
 st.markdown('<div class="main-header">🚢 极速出海</div>', unsafe_allow_html=True)
-st.markdown('<div class="sub-header">AI赋能的报价履约协同助手</div>', unsafe_allow_html=True)
+st.markdown('<div class="sub-header">-AI赋能的报价履约协同助手</div>', unsafe_allow_html=True)
 
 # 口号
-st.markdown('<div class="slogan">技炫青春 · 能创未来 · 极速出海 · 技能报国</div>', unsafe_allow_html=True)
+st.markdown('<div class="slogan">2026世校赛备赛情况汇报</div>', unsafe_allow_html=True)
 
 # 汇报人信息
 col_logo, col_title, col_logo2 = st.columns([1, 2, 1])

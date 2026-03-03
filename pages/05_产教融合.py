@@ -23,7 +23,7 @@ with col_enter1:
         <p style="font-size: 1.2rem; margin: 1rem 0;"><strong>合作进展</strong></p>
         <ul>
             <li>✅ 4名学生正在实习</li>
-            <li>✅ 合作开发报价模板</li>
+            <li>✅ 深入调研企业真实痛点</li>
             <li>✅ 企业反馈积极</li>
         </ul>
     </div>
@@ -36,7 +36,7 @@ with col_enter2:
         <p style="font-size: 1.2rem; margin: 1rem 0;"><strong>合作进展</strong></p>
         <ul>
             <li>✅ 已见面3次</li>
-            <li>✅ 正在洽谈实训基地</li>
+            <li>✅ 正在洽谈合作开发报价模板</li>
             <li>✅ 意向明确</li>
         </ul>
     </div>
@@ -44,7 +44,7 @@ with col_enter2:
 
 # ===== 学生技能 =====
 st.markdown("---")
-st.markdown("### ✅ 学生已掌握技能")
+st.markdown("### ✅ 学生掌握技能")
 
 skill_col1, skill_col2, skill_col3, skill_col4 = st.columns(4)
 

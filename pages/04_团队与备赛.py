@@ -64,7 +64,7 @@ st.markdown("""
 
 # ===== 指导教师实力 =====
 st.markdown("---")
-st.markdown("### 👩‍🏫 指导教师：郑秀英（备赛核心保障）")
+st.markdown("### 👩‍🏫 指导教师：郑秀英")
 
 col_teacher1, col_teacher2 = st.columns([1, 2])
 

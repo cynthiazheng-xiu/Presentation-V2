@@ -4,7 +4,7 @@ from datetime import datetime
 
 st.set_page_config(page_title="团队与备赛 | 极速出海", page_icon="👥")
 
-st.title("👥 04 团队与备赛：打造金牌参赛团队")
+st.title("👥 04 团队与备赛：")
 
 st.markdown("""
 <div class="quote-block" style="background-color: #f0f7fa; padding: 1.5rem; border-radius: 10px; border-left: 5px solid #1e5f7a; margin-bottom: 2rem;">
@@ -20,7 +20,7 @@ col_t1, col_t2, col_t3, col_t4 = st.columns(4)
 
 with col_t1:
     st.markdown("""
-    <div style="background-color: #1e5f7a; color: white; padding: 1rem; border-radius: 10px; text-align: center; height: 180px;">
+    <div style="background-color: #1e5f7a; color: white; padding: 1rem; border-radius: 10px; text-align: center; height: 210px;">
         <h3 style="color: #f3b33d; margin-top: 0;">👨‍💼 队长</h3>
         <h4 style="margin: 0.5rem 0;">XXX</h4>
         <p>整体把控<br>开场结尾<br>时间管理</p>
@@ -29,7 +29,7 @@ with col_t1:
 
 with col_t2:
     st.markdown("""
-    <div style="background-color: #1e5f7a; color: white; padding: 1rem; border-radius: 10px; text-align: center; height: 180px;">
+    <div style="background-color: #1e5f7a; color: white; padding: 1rem; border-radius: 10px; text-align: center; height: 210px;">
         <h3 style="color: #f3b33d; margin-top: 0;">🎤 营销专员</h3>
         <h4 style="margin: 0.5rem 0;">XXX</h4>
         <p>数字人直播<br>话术设计<br>直播演示</p>
@@ -38,7 +38,7 @@ with col_t2:
 
 with col_t3:
     st.markdown("""
-    <div style="background-color: #1e5f7a; color: white; padding: 1rem; border-radius: 10px; text-align: center; height: 180px;">
+    <div style="background-color: #1e5f7a; color: white; padding: 1rem; border-radius: 10px; text-align: center; height: 210px;">
         <h3 style="color: #f3b33d; margin-top: 0;">🧠 运营专员</h3>
         <h4 style="margin: 0.5rem 0;">XXX</h4>
         <p>Coze工作流<br>流程搭建<br>业务逻辑</p>
@@ -47,7 +47,7 @@ with col_t3:
 
 with col_t4:
     st.markdown("""
-    <div style="background-color: #1e5f7a; color: white; padding: 1rem; border-radius: 10px; text-align: center; height: 180px;">
+    <div style="background-color: #1e5f7a; color: white; padding: 1rem; border-radius: 10px; text-align: center; height: 210px;">
         <h3 style="color: #f3b33d; margin-top: 0;">🔧 技术专员</h3>
         <h4 style="margin: 0.5rem 0;">XXX</h4>
         <p>报价系统+PRA<br>代码调试<br>自动化演示</p>

@@ -53,7 +53,7 @@ with tabs[0]:
 with tabs[1]:
     st.header("🧠 Coze工作流——智能询盘分类")
     
-    coze_url = "https://www.coze.cn/work_flow?space_id=7491136436608106536&workflow_id=7610438014247305225&force_stay=1"
+    coze_url = "https://www.coze.cn/work_flow?workflow_id=7613027449315885065&space_id=7491136436608106536&force_stay=1"
     
     st.markdown(f"""
     **工作流节点设计**：
@@ -177,7 +177,7 @@ with tabs[3]:
         - 🔄 操作：60次复制粘贴
         """)
     with col2:
-        st.success("**PRA机器人**")
+        st.success("**RPA机器人**")
         st.markdown("""
         - ⏱️ 耗时：**3秒**
         - ✅ 错误率：**2%**
